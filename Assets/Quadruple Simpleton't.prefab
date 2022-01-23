@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
+  Parent: {fileID: 114235332021652792}
   Children: []
   IsPassThrough: 0
   ChildRowLength: 0
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
+  Parent: {fileID: 114235332021652792}
   Children: []
   IsPassThrough: 0
   ChildRowLength: 0
@@ -1202,7 +1202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModuleType: QuadrupleSimpletontModule
   ModuleDisplayName: Quadruple Simpleton't
-  RequiresTimerVisibility: 0
+  RequiresTimerVisibility: 1
 --- !u!114 &114491846105202430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
+  Parent: {fileID: 114235332021652792}
   Children: []
   IsPassThrough: 0
   ChildRowLength: 0
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
+  Parent: {fileID: 114235332021652792}
   Children: []
   IsPassThrough: 0
   ChildRowLength: 0
