@@ -248,8 +248,12 @@ public class QuadrupleSimpletontScript : MonoBehaviour
 
     private IEnumerator TwitchHandleForcedSolve()
     {
-        _presses = new List<int>();
         for (int i = 0; i < 6; i++)
+            if (_presses[i] != _solution[i])
+                _presses = new List<int>();
+        if (_presses.Count > 6)
+            _presses = new List<int>();
+        for (int i = _presses.Count; i < 6; i++)
         {
             ButtonSels[_btnPos[_solution[i]]].OnInteract();
             yield return new WaitForSeconds(0.1f);
